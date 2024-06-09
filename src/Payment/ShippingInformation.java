@@ -186,6 +186,7 @@ public class ShippingInformation extends javax.swing.JFrame {
         
         JOptionPane.showMessageDialog(this, "Thank You for Shopping.\n Visit Again! ");
         dispose();
+        System.exit(0);
         
     } else if (PayViaCardSelectButton.isSelected()) {
         // Handle payment via card

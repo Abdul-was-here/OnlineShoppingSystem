@@ -152,6 +152,7 @@ public class PaymentPortal extends javax.swing.JFrame {
         // TODO add your handling code here:
         JOptionPane.showMessageDialog(this, "Thanks for the purchase, Your shipment is on its way. Please visit again.");
         dispose();
+        System.exit(0);
     }//GEN-LAST:event_PayButtonActionPerformed
 
     private void NameOnTheCardBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NameOnTheCardBoxActionPerformed
